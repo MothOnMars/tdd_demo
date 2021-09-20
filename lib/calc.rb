@@ -1,5 +1,5 @@
 module Calc
   def self.add(a, b)
-    a
+    a + b
   end
 end
