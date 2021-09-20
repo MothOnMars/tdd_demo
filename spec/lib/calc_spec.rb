@@ -7,5 +7,9 @@ describe Calc do
     it 'does something' do
       expect(Calc.add(4,0)).not_to be nil
     end
+
+    it 'returns the sum of the numbers' do
+      expect(Calc.add(4,0)).to eq 4
+    end
   end
 end
