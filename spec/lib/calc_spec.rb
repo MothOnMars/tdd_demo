@@ -9,14 +9,11 @@ describe Calc do
     end
 
     it 'returns the sum of the numbers' do
-      expect(Calc.add(4,1)).to eq 5 # This is the only test needed for dice!
-      expect(Calc.add(4, -1)).to eq 3
-      expect(Calc.add(4, 0.5)).to eq 4.5
-      expect(Calc.add(4, 1_000_000_000)).to eq 1_000_000_004
-      expect(Calc.add('4', '1')).to eq 5
-      expect(Calc.add('four', 'one')).to eq 5
-      expect(Calc.add(4, π)).to eq 7.14159 #.....
-      expect(Calc.add(1,2,3)).to eq 6
+      expect(Calc.add(4,1)).to eq 5
+      expect(Calc.add(4,2)).to eq 6
+      expect(Calc.add(4,3)).to eq 7
+      expect(Calc.add(4,4)).to eq 8
+      # and so on...
     end
   end
 end
