@@ -10,6 +10,7 @@ describe Calc do
 
     it 'returns the sum of the numbers' do
       expect(Calc.add(4,0)).to eq 4
+      expect(Calc.add(4,1)).to eq 5
     end
   end
 end
