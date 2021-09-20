@@ -1,0 +1,3 @@
+describe Calc do
+
+end
