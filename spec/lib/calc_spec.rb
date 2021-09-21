@@ -9,11 +9,8 @@ describe Calc do
     end
 
     it 'returns the sum of the numbers' do
-      expect(Calc.add(4,1)).to eq 5
-      expect(Calc.add(4,2)).to eq 6
-      expect(Calc.add(4,3)).to eq 7
-      expect(Calc.add(4,4)).to eq 8
-      # and so on...
+      expect(Calc.add(4, 0)).to eq 4
+      expect(Calc.add(4, 1)).to eq 5
     end
   end
 end
